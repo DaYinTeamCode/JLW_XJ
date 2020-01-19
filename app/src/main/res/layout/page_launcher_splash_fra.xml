@@ -17,12 +17,15 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"></RelativeLayout>
 
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="54dp"
-            android:src="@mipmap/ic_splash_logo_desc" />
+            android:text="超\n划\n算\n的\n购\n物\n神\n器"
+            android:textColor="#313134"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <FrameLayout
             android:id="@+id/flAdvertDiv"
@@ -54,11 +57,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24.5dp"
         android:layout_marginBottom="24.5dp"
-        android:drawableTop="@mipmap/ic_launcher_logo"
+        android:drawableTop="@mipmap/ic_launcher"
         android:drawablePadding="13dp"
         android:gravity="center"
-        android:text="微观视频"
-        android:textColor="#2B2B37"
-        android:textSize="16dp" />
+        android:text="淘集集"
+        android:textColor="#313134"
+        android:textSize="16dp"
+        android:textStyle="bold" />
 
 </LinearLayout>

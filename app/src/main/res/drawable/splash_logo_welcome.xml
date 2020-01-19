@@ -8,6 +8,6 @@
     <item android:bottom="58dp">
         <bitmap
             android:gravity="center_horizontal|bottom"
-            android:src="@mipmap/ic_launcher_logo" />
+            android:src="@mipmap/ic_launcher" />
     </item>
 </layer-list>
