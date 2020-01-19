@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ex.sdk.android:umeng:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/umeng-1.1.0.aar/f4190ad06dd43850deab9e86dc78cdbc/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/umeng-1.1.0.aar/f4190ad06dd43850deab9e86dc78cdbc/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

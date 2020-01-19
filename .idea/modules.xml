@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BaseLibModule/BaseLibModule.iml" filepath="$PROJECT_DIR$/BaseLibModule/BaseLibModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonLibModule/CommonLibModule.iml" filepath="$PROJECT_DIR$/CommonLibModule/CommonLibModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FrescoLibModule/FrescoLibModule.iml" filepath="$PROJECT_DIR$/FrescoLibModule/FrescoLibModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JLW_XJ.iml" filepath="$PROJECT_DIR$/JLW_XJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WGPlayerArmv7a/WGPlayerArmv7a.iml" filepath="$PROJECT_DIR$/WGPlayerArmv7a/WGPlayerArmv7a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WGPlayerCore/WGPlayerCore.iml" filepath="$PROJECT_DIR$/WGPlayerCore/WGPlayerCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WGPlayerUi/WGPlayerUi.iml" filepath="$PROJECT_DIR$/WGPlayerUi/WGPlayerUi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flUserSetting"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/flTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <com.jlwteam.rebate.view.CpTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:drawableRight="@mipmap/page_setting_main_right_arrow"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="19dp"
+        android:background="@color/cp_title_bar_bg" />
+</LinearLayout>

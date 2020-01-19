@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff161723"
+    tools:context="com.jlwteam.rebate.page.main.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableTop="@mipmap/ic_page_tip_data_empty"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="暂无关注,快去添加关注吧！"
+        android:textColor="#FF666666"
+        android:textSize="14dp" />
+</FrameLayout>
