@@ -7,14 +7,14 @@ import android.support.v4.app.Fragment;
 
 import com.androidex.statusbar.StatusBarManager;
 import com.sjteam.weiguan.R;
-import com.jlwteam.rebate.page.aframe.CpFragmentActivity;
+import com.jlwteam.rebate.base.aframe.ExFragmentActivity;
 
 /**
  * 用户登录页面
  * <p>
  * Create By DaYin(gaoyin_vip@126.com) on 2019/6/24 7:31 PM
  */
-public class UserLoginActivity extends CpFragmentActivity {
+public class UserLoginActivity extends ExFragmentActivity {
 
     private Fragment mFragment;
 

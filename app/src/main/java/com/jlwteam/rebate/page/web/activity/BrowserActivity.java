@@ -9,14 +9,14 @@ import android.os.Bundle;
 import com.androidex.util.TextUtil;
 import com.jlwteam.rebate.dialog.CpBaseDialog;
 import com.jlwteam.rebate.dialog.CpConfirmDialog;
-import com.jlwteam.rebate.page.aframe.CpFragmentActivity;
+import com.jlwteam.rebate.base.aframe.ExFragmentActivity;
 import com.jlwteam.rebate.page.web.fragment.BrowserFra;
 import com.jlwteam.rebate.utils.ActivityUtil;
 
 /**
  * Create By DaYin(gaoyin_vip@126.com) on 2019/6/20 7:33 PM
  */
-public class BrowserActivity extends CpFragmentActivity {
+public class BrowserActivity extends ExFragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

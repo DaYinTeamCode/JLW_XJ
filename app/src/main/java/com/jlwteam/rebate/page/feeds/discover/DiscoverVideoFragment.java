@@ -28,7 +28,7 @@ import com.jlwteam.rebate.page.feeds.discover.bean.FeedsVideoResult;
 import com.jzyd.lib.httptask.HttpFrameParams;
 import com.jzyd.lib.refresh.sqkbswipe.SqkbSwipeRefreshLayout;
 import com.sjteam.weiguan.R;
-import com.jlwteam.rebate.page.aframe.CpHttpFrameXrvFragment;
+import com.jlwteam.rebate.base.aframe.CpHttpFrameXrvFragment;
 import com.jlwteam.rebate.page.feeds.discover.adapter.VideoDetailAdapter;
 import com.jlwteam.rebate.page.feeds.discover.impl.OnViewPagerListener;
 import com.jlwteam.rebate.page.feeds.discover.impl.ViewPagerLayoutManager;

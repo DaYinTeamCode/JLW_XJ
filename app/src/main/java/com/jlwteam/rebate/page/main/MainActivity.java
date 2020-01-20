@@ -21,7 +21,7 @@ import com.jlwteam.rebate.page.news.MainMessageFragment;
 import com.jzyd.lib.util.MD5Util;
 import com.sjteam.weiguan.R;
 import com.jlwteam.rebate.dialog.PusblishDialog;
-import com.jlwteam.rebate.page.aframe.CpFragmentActivity;
+import com.jlwteam.rebate.base.aframe.ExFragmentActivity;
 import com.jlwteam.rebate.page.video.MainVideoFragment;
 import com.jlwteam.rebate.page.feeds.MainFeedsFragment;
 import com.jlwteam.rebate.syncer.EventBusUtils;
@@ -40,7 +40,7 @@ import butterknife.OnClick;
  * <p>
  * Create By DaYin(gaoyin_vip@126.com) on 2019/6/11 10:01 PM
  */
-public class MainActivity extends CpFragmentActivity implements DelayBackHandler.OnDelayBackListener {
+public class MainActivity extends ExFragmentActivity implements DelayBackHandler.OnDelayBackListener {
 
     public static final int EXTRA_VALUE_LAUNCHER_TAB_INDEX = 1;
 

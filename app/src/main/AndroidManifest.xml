@@ -114,6 +114,14 @@
             android:screenOrientation="portrait"
             android:theme="@style/cp_theme_title_main_float_trans"
             android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name="com.jlwteam.rebate.page.coupon.MainActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/cp_theme_title_main_float_trans"
+            android:windowSoftInputMode="adjustNothing" />
         <activity
             android:name="com.jlwteam.rebate.page.web.activity.BrowserActivity"
             android:screenOrientation="portrait"

@@ -32,7 +32,7 @@ import com.jlwteam.rebate.page.feeds.discover.viewholder.VideoDetailViewHolder;
 import com.jzyd.lib.httptask.HttpFrameParams;
 import com.jzyd.lib.refresh.sqkbswipe.SqkbSwipeRefreshLayout;
 import com.sjteam.weiguan.R;
-import com.jlwteam.rebate.page.aframe.CpHttpFrameXrvFragment;
+import com.jlwteam.rebate.base.aframe.CpHttpFrameXrvFragment;
 import com.jlwteam.rebate.stat.StatRecyclerViewNewAttacher;
 import com.jlwteam.rebate.view.load.LoadingView;
 import com.jlwteam.rebate.widget.video.VideoController;

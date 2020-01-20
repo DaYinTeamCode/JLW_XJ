@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.jzyd.lib.httptask.HttpFrameParams;
 import com.sjteam.weiguan.R;
-import com.jlwteam.rebate.page.aframe.HttpFrameFragment;
+import com.jlwteam.rebate.base.aframe.HttpFrameFragment;
 
 /**
  * 消息中心Fragment

@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import com.androidex.statusbar.StatusBarManager;
 import com.androidex.util.AppInfoUtil;
-import com.jlwteam.rebate.page.aframe.CpActivity;
+import com.jlwteam.rebate.base.aframe.CpActivity;
 import com.jlwteam.rebate.view.CpTextView;
 import com.sjteam.weiguan.R;
 import com.jlwteam.rebate.utils.CpFontUtil;

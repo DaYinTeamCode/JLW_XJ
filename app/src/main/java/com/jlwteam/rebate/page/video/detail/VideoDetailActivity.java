@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.jlwteam.rebate.page.feeds.discover.bean.FeedsVideoResult;
 import com.sjteam.weiguan.R;
-import com.jlwteam.rebate.page.aframe.CpFragmentActivity;
+import com.jlwteam.rebate.base.aframe.ExFragmentActivity;
 
 import java.io.Serializable;
 import java.util.List;
@@ -16,7 +16,7 @@ import java.util.List;
  * <p>
  * Create By DaYin(gaoyin_vip@126.com) on 2019/6/26 12:04 PM
  */
-public class VideoDetailActivity extends CpFragmentActivity {
+public class VideoDetailActivity extends ExFragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

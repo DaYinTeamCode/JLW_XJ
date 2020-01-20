@@ -15,7 +15,7 @@ import com.jlwteam.rebate.page.feeds.follow.FollowVideoFragment;
 import com.jlwteam.rebate.page.main.event.VideoCateChangedEvent;
 import com.jzyd.lib.httptask.HttpFrameParams;
 import com.sjteam.weiguan.R;
-import com.jlwteam.rebate.page.aframe.HttpFrameFragment;
+import com.jlwteam.rebate.base.aframe.HttpFrameFragment;
 import com.jlwteam.rebate.page.feeds.discover.DiscoverVideoFragment;
 import com.jlwteam.rebate.syncer.EventBusUtils;
 

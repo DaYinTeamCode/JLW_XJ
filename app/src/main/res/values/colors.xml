@@ -32,4 +32,10 @@
     <color name="cp_black">#FF000000</color>
 
     <color name="text_video_title">#061b28</color>
+
+    <color name="tab_text_normal">#212121</color>
+
+    <color name="comui_tab_text_color">#FF929292</color>
+
+    <color name="comui_tab_select_color">#FFFF2220</color>
 </resources>

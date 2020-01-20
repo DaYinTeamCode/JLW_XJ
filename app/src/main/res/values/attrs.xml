@@ -10,4 +10,11 @@
         <!--view最小高度-->
         <attr name="minHeight" format="dimension"></attr>
     </declare-styleable>
+
+    <declare-styleable name="NavigateTabBar">
+        <attr name="navigateTabTextColor" format="color|reference"/>
+        <attr name="navigateTabSelectedTextColor" format="color|reference"/>
+        <attr name="containerId" format="integer|reference"/>
+        <attr name="navigateTabTextSize" format="dimension|reference"/>
+    </declare-styleable>
 </resources>

@@ -13,7 +13,7 @@ import com.androidex.util.VglpUtil;
 import com.androidex.view.ExWebView;
 import com.jzyd.lib.refresh.sqkbswipe.SqkbSwipeRefreshLayout;
 import com.sjteam.weiguan.R;
-import com.jlwteam.rebate.page.aframe.CpFragment;
+import com.jlwteam.rebate.base.aframe.CpFragment;
 import com.jlwteam.rebate.page.web.widget.CpWebWidget;
 
 /**

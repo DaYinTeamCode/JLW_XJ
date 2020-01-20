@@ -29,7 +29,7 @@ import com.jlwteam.rebate.app.XJApp;
 import com.jzyd.lib.httptask.HttpFrameParams;
 import com.sjteam.weiguan.R;
 import com.jlwteam.rebate.dialog.CpConfirmDialog;
-import com.jlwteam.rebate.page.aframe.viewer.CpHttpFrameXrvFragmentViewer;
+import com.jlwteam.rebate.base.aframe.viewer.CpHttpFrameXrvFragmentViewer;
 import com.jlwteam.rebate.page.login.UserLoginActivity;
 import com.jlwteam.rebate.page.login.bean.WxBind;
 import com.jlwteam.rebate.page.login.prefs.AccountPrefs;

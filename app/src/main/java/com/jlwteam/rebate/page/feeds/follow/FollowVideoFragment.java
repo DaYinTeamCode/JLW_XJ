@@ -9,7 +9,7 @@ import android.support.v4.app.Fragment;
 import com.androidex.util.LogMgr;
 import com.jzyd.lib.httptask.HttpFrameParams;
 import com.sjteam.weiguan.R;
-import com.jlwteam.rebate.page.aframe.CpHttpFrameRvFragment;
+import com.jlwteam.rebate.base.aframe.CpHttpFrameRvFragment;
 
 /**
  * 关注视频Fragment
