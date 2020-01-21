@@ -11,67 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c984434-0366-44b1-a1f5-c86caf187cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/collection/MainCollectionFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/discover/MainDiscoverFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/page/view/MainHomePageFrameLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/widget/MainHomeHeaderTitleWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/me/MainUserFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/utils/CpDrawableUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/view/design/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/view/design/SlidingLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_bg_colorful_no_corner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_page_main_home_title_widget.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_main_home_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_title_bar_edit_colorful.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/main/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/me/utils/MainUserDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/me/utils/MainUserDataUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/me/widget/MainUserHeaderWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/me/widget/MainUserHeaderWidget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/splash/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/splash/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_user_header_widget.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_user_header_widget.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_main_user_item_vh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/page_main_user_item_vh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-19-18-33-48-491.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-19-18-33-48-491.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-19-18-35-49-791.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-19-18-35-49-791.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-18-50-838.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-18-50-838.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-30-00-464.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-30-00-464.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-31-06-485.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-31-06-485.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-31-31-754.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-31-31-754.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-32-41-701.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-32-41-701.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-34-46-817.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-34-46-817.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-48-48-115.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-48-48-115.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-49-05-041.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-49-05-041.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-50-45-771.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-50-45-771.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-53-01-527.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-53-01-527.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-54-24-108.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-19-54-24-108.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-20-05-20-597.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-01-20-20-05-20-597.rawproto" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/base/aframe/viewer/CpHttpFrameVFragmentViewer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -184,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="601">
+              <caret line="32" column="38" selection-start-line="27" selection-start-column="24" selection-end-line="32" selection-end-column="38" />
               <folding>
                 <element signature="e#482#523#0" expanded="true" />
                 <element signature="e#718#759#0" expanded="true" />
@@ -726,13 +670,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Captures" order="0" sideWeight="0.5018963" side_tool="true" weight="0.2918455" />
       <window_info id="Designer" order="1" />
-      <window_info id="Build Variants" order="2" sideWeight="0.5006321" side_tool="true" weight="0.3597997" />
+      <window_info id="Build Variants" order="2" sideWeight="0.5018963" side_tool="true" weight="0.2918455" />
       <window_info id="Favorites" order="3" sideWeight="0.5006321" side_tool="true" weight="0.3597997" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4993679" visible="true" weight="0.2918455" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49810368" visible="true" weight="0.2918455" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Structure" order="8" sideWeight="0.5006321" side_tool="true" weight="0.3597997" />
@@ -757,7 +702,7 @@
       <window_info anchor="right" id="Flutter Outline" order="4" weight="0.3297568" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info active="true" anchor="right" id="Preview" order="7" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.3297568" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -1124,7 +1069,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/base/aframe/viewer/CpHttpFrameVFragmentViewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1147,8 +1092,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="601">
+          <caret line="32" column="38" selection-start-line="27" selection-start-column="24" selection-end-line="32" selection-end-column="38" />
           <folding>
             <element signature="e#482#523#0" expanded="true" />
             <element signature="e#718#759#0" expanded="true" />
