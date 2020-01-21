@@ -18,15 +18,15 @@
             android:layout_marginRight="19dp"
             android:drawableRight="@mipmap/page_setting_main_right_arrow"
             android:gravity="center_vertical"
-            android:textColor="#FFFFFF"
+            android:textColor="#313134"
             android:textSize="13dp"
             android:textStyle="bold" />
     </FrameLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="0.3dp"
+        android:layout_height="0.68dp"
         android:layout_gravity="bottom"
         android:layout_marginLeft="19dp"
-        android:background="@color/cp_title_bar_bg" />
+        android:background="#FFf2f2f2" />
 </LinearLayout>

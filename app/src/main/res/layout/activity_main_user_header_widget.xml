@@ -10,14 +10,14 @@
     <com.androidex.imageloader.fresco.FrescoImageView
         android:id="@+id/aivBgPic"
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="120dp"
         fresco:actualImageScaleType="centerCrop"
         tool:ignore="MissingConstraints" />
 
     <com.androidex.imageloader.fresco.FrescoImageView
         android:id="@+id/aivAvater"
-        android:layout_width="68dp"
-        android:layout_height="68dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="26dp"
         android:scaleType="centerCrop"
@@ -41,111 +41,4 @@
         app:layout_constraintLeft_toRightOf="@+id/aivAvater"
         app:layout_constraintTop_toTopOf="@+id/aivAvater" />
 
-    <!--<LinearLayout-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content">-->
-
-    <!--<android.support.constraint.ConstraintLayout-->
-    <!--android:id="@+id/clCashInfo"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="86dp"-->
-    <!--android:layout_marginLeft="10dp"-->
-    <!--android:layout_marginTop="120dp"-->
-    <!--android:layout_marginRight="10dp"-->
-    <!--android:layout_marginBottom="20dp"-->
-    <!--android:background="@drawable/shape_main_header_bg"-->
-    <!--android:elevation="1.8px"-->
-    <!--app:layout_constraintTop_toTopOf="parent"-->
-    <!--tool:ignore="MissingConstraints">-->
-
-    <!--<LinearLayout-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent">-->
-
-    <!--<LinearLayout-->
-    <!--android:id="@+id/clLeftCash"-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_weight="1"-->
-    <!--android:baselineAligned="true"-->
-    <!--android:gravity="center">-->
-
-    <!--<CpTextView-->
-    <!--android:id="@+id/tvTiezi"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_gravity="center"-->
-    <!--android:drawableTop="@mipmap/ic_main_user_tiezi_icon"-->
-    <!--android:drawablePadding="14dp"-->
-    <!--android:gravity="center"-->
-    <!--android:text="帖子"-->
-    <!--android:textColor="#FFFFFF"-->
-    <!--android:textSize="12dp"-->
-    <!--android:textStyle="bold" />-->
-    <!--</LinearLayout>-->
-
-    <!--<LinearLayout-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_weight="1"-->
-    <!--android:baselineAligned="true"-->
-    <!--android:gravity="center">-->
-
-    <!--<CpTextView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_gravity="center"-->
-    <!--android:drawableTop="@mipmap/ic_main_user_header_comment_icon"-->
-    <!--android:drawablePadding="14dp"-->
-    <!--android:gravity="center"-->
-    <!--android:text="评论"-->
-    <!--android:textColor="#FFFFFF"-->
-    <!--android:textSize="12dp"-->
-    <!--android:textStyle="bold" />-->
-    <!--</LinearLayout>-->
-
-
-    <!--<LinearLayout-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_weight="1"-->
-    <!--android:baselineAligned="true"-->
-    <!--android:gravity="center">-->
-
-    <!--<CpTextView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_gravity="center"-->
-    <!--android:drawableTop="@mipmap/ic_main_user_header_give_up_icon"-->
-    <!--android:drawablePadding="14dp"-->
-    <!--android:gravity="center"-->
-    <!--android:text="点赞"-->
-    <!--android:textColor="#FFFFFF"-->
-    <!--android:textSize="12dp"-->
-    <!--android:textStyle="bold" />-->
-    <!--</LinearLayout>-->
-
-    <!--<LinearLayout-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_weight="1"-->
-    <!--android:baselineAligned="true"-->
-    <!--android:gravity="center">-->
-
-    <!--<CpTextView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_gravity="center"-->
-    <!--android:drawableTop="@mipmap/ic_main_user_header_records_icon"-->
-    <!--android:drawablePadding="14dp"-->
-    <!--android:gravity="center"-->
-    <!--android:text="浏览记录"-->
-    <!--android:textColor="#FFFFFF"-->
-    <!--android:textSize="12dp"-->
-    <!--android:textStyle="bold" />-->
-    <!--</LinearLayout>-->
-    <!--</LinearLayout>-->
-    <!--</android.support.constraint.ConstraintLayout>-->
-
-    <!--</LinearLayout>-->
 </android.support.constraint.ConstraintLayout>

@@ -57,7 +57,7 @@ public class MainUserHeaderWidget extends ExLayoutWidget implements View.OnClick
                 }
             }
         });
-        mAivBgPic.setBackgroundResource(R.drawable.cp_title_bar_bg);
+        mAivBgPic.setBackgroundResource(R.drawable.shape_bg_colorful_no_corner);
         mAivAvater = view.findViewById(R.id.aivAvater);
         mAivAvater.setRoundingParams(RoundingParams.asCircle());
         ConstraintLayout.LayoutParams layoutParams = (ConstraintLayout.LayoutParams) mAivAvater.getLayoutParams();

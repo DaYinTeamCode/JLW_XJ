@@ -26,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="bottom"
+            android:layout_marginTop="0.68dp"
             android:background="@android:color/white"
             app:containerId="@+id/main_container"
             app:navigateTabSelectedTextColor="@color/comui_tab_select_color"

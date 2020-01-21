@@ -42,7 +42,7 @@ public class MainUserDataUtil {
         objects.add(userItemSet);
 
         userItemSet = new UserItemSet();
-        userItemSet.setTitle("关于微观短视频");
+        userItemSet.setTitle("关于淘集集");
         userItemSet.setItemType(UserItemSet.ABOUT_APP_TYPE);
         objects.add(userItemSet);
 

@@ -13,7 +13,7 @@ import com.androidex.statusbar.StatusBarManager;
 import com.androidex.util.CompatUtil;
 import com.ex.sdk.android.expermissions.ExEasyPermissions;
 import com.gyf.immersionbar.ImmersionBar;
-import com.jlwteam.rebate.page.coupon.MainActivity;
+import com.jlwteam.rebate.page.coupon.main.MainActivity;
 import com.jzyd.lib.activity.JzydFragmentActivity;
 import com.jlwteam.rebate.manager.permisssion.deviceid.SqkbDeviceIdManager;
 import com.jlwteam.rebate.page.splash.fragment.SplashFragment;

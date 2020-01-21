@@ -116,7 +116,7 @@
             android:windowSoftInputMode="adjustNothing" />
 
         <activity
-            android:name="com.jlwteam.rebate.page.coupon.MainActivity"
+            android:name="com.jlwteam.rebate.page.coupon.main.MainActivity"
             android:hardwareAccelerated="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
