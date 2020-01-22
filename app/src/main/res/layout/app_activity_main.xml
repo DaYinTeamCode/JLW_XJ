@@ -31,7 +31,7 @@
             app:containerId="@+id/main_container"
             app:navigateTabSelectedTextColor="@color/comui_tab_select_color"
             app:navigateTabTextColor="@color/comui_tab_text_color"
-            app:navigateTabTextSize="10sp" />
+            app:navigateTabTextSize="9dp" />
     </FrameLayout>
 
 </FrameLayout>

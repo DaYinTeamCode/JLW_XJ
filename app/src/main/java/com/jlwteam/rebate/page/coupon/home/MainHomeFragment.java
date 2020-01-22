@@ -3,6 +3,8 @@ package com.jlwteam.rebate.page.coupon.home;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.widget.FrameLayout;
 
 import com.androidex.util.DensityUtil;
 import com.androidex.util.VglpUtil;
@@ -19,13 +21,14 @@ import com.sjteam.weiguan.R;
 public class MainHomeFragment extends CpHttpFrameVFragmentViewer {
 
     private MainHomeHeaderTitleWidget mMainHomeHeaderTitleWidget;
+    private FrameLayout mFlHomeRoot;
+    private MainHomeCateFragment mCatePageFragment;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
 
         super.onActivityCreated(savedInstanceState);
         setContentView(R.layout.fragment_page_main_home_fragment);
-        showLoading();
         showContent();
     }
 
@@ -45,6 +48,9 @@ public class MainHomeFragment extends CpHttpFrameVFragmentViewer {
 
     }
 
+    /***
+     *   刷新头部布局
+     */
     @Override
     protected void initTitleView() {
 
@@ -58,6 +64,15 @@ public class MainHomeFragment extends CpHttpFrameVFragmentViewer {
     @Override
     protected void initContentView() {
 
+        initCatePageFrameView();
+    }
+
+    private void initCatePageFrameView() {
+
+        mFlHomeRoot = (FrameLayout) findViewById(R.id.flOperRoot);
+        mCatePageFragment = MainHomeCateFragment.newInstance(getActivity());
+        FragmentManager fm = getChildFragmentManager();
+        fm.beginTransaction().add(R.id.flCatePageFrame, mCatePageFragment).commitAllowingStateLoss();
     }
 
     public static MainHomeFragment newInstance(Context context) {

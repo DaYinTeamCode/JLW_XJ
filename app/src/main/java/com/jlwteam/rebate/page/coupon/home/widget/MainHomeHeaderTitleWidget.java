@@ -5,7 +5,6 @@ import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.androidex.imageloader.fresco.FrescoImageView;
@@ -14,7 +13,6 @@ import com.androidex.util.DensityUtil;
 import com.androidex.util.ViewUtil;
 import com.jlwteam.rebate.utils.CpDrawableUtil;
 import com.sjteam.weiguan.R;
-
 
 /**
  * 首页标题栏布局

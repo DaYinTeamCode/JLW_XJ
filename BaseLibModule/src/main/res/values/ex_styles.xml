@@ -1,7 +1,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- activity style -->
-    <style name="ex_theme_noTitle">
+    <style name="ex_theme_noTitle" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowNoTitle">true</item>
     </style>
 
