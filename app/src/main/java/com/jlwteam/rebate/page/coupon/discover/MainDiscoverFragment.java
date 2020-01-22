@@ -25,8 +25,9 @@ public class MainDiscoverFragment extends CpHttpFrameVFragmentViewer {
 
         super.onActivityCreated(savedInstanceState);
         setContentView(R.layout.fragment_page_main_home_fragment);
-        showLoading();
-        showContent();
+        showFailed(-8,"请求失败");
+//        showLoading();
+//        showContent();
     }
 
     @Override

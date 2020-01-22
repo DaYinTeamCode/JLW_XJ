@@ -25,8 +25,9 @@ public class MainCollectionFragment extends CpHttpFrameVFragmentViewer {
 
         super.onActivityCreated(savedInstanceState);
         setContentView(R.layout.fragment_page_main_home_fragment);
-        showLoading();
-        showContent();
+        showContentDisable();
+//        showLoading();
+//        showContent();
     }
 
     @Override
@@ -58,6 +59,8 @@ public class MainCollectionFragment extends CpHttpFrameVFragmentViewer {
     @Override
     protected void initContentView() {
 
+        setDisabledImageResId(R.drawable.icon_empty_no_message);
+        setDisabledTextResId(R.string.common_data_none);
     }
 
     public static MainCollectionFragment newInstance(Context context) {
