@@ -43,7 +43,7 @@ public class MainHomeHeaderTitleWidget extends ExLayoutWidget implements View.On
 
         mFlTitleDiv = view.findViewById(R.id.flTitleDiv);
         mFlTitleDiv.setOnClickListener(this);
-        ViewUtil.setViewBackground(mFlTitleDiv, CpDrawableUtil.getRectDrawable(DensityUtil.dip2px(20), Color.WHITE));
+        ViewUtil.setViewBackground(mFlTitleDiv, CpDrawableUtil.getRectDrawable(DensityUtil.dip2px(24), Color.WHITE));
         mTvTitle = view.findViewById(R.id.tvTitle);
         return view;
     }

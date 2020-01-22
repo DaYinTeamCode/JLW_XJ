@@ -11,14 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c984434-0366-44b1-a1f5-c86caf187cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeCateFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/adapter/HomeFragmentPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/bean/HomePageCacheInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/behavior/FlingBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/category/bean/CateCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/listener/IHomePager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/rec/HomePageRecListFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_page_main_home_cate_fragment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -28,13 +20,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseLibModule/src/main/res/values/ex_styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseLibModule/src/main/res/values/ex_styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/widget/MainHomeHeaderTitleWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/widget/MainHomeHeaderTitleWidget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/view/tab/NavigateTabBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/view/tab/NavigateTabBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shape_bg_colorful_no_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_bg_colorful_no_corner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/comui_tab_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/comui_tab_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_page_main_home_title_widget.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_page_main_home_title_widget.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,18 +59,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/behavior/FlingBehavior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/rec/HomePageRecListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1920">
@@ -96,10 +71,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/widget/MainHomeHeaderTitleWidget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="437">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +85,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeCateFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="83" column="51" lean-forward="true" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+            <state relative-caret-position="462">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#4492#4493#0" expanded="true" />
                 <element signature="e#4520#4521#0" expanded="true" />
               </folding>
@@ -124,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="31" column="44" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="254">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
@@ -154,6 +128,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_page_main_home_title_widget.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
@@ -192,8 +176,8 @@
       <find>flOperRoot</find>
       <find>onPageSelected</find>
       <find>mFlHomeRoot</find>
-      <find>onPageScrollStateChanged</find>
       <find>mTabTextSize</find>
+      <find>onPageScrollStateChanged</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -222,7 +206,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/me/utils/MainUserDataUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/page_main_user_item_vh.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/view/design/SlidingLayout.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_page_main_home_title_widget.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/page/view/MainHomePageFrameLayout.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/main/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
@@ -236,7 +219,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/behavior/FlingBehavior.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/rec/HomePageRecFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/adapter/HomeFragmentPagerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/widget/MainHomeHeaderTitleWidget.java" />
         <option value="$PROJECT_DIR$/BaseLibModule/src/main/res/values/ex_styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/rec/HomePageRecListFragment.java" />
@@ -246,6 +228,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/view/tab/NavigateTabBar.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/comui_tab_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeCateFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_page_main_home_title_widget.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/widget/MainHomeHeaderTitleWidget.java" />
       </list>
     </option>
   </component>
@@ -640,10 +624,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bg_title_bar.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor" />
-      <provider editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/me/MainUserFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -861,16 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/widget/MainHomeHeaderTitleWidget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BaseLibModule/src/main/java/com/androidex/adapter/ExFragmentPagerStateAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -939,14 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -969,12 +931,37 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeCateFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="83" column="51" lean-forward="true" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        <state relative-caret-position="254">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_page_main_home_title_widget.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/widget/MainHomeHeaderTitleWidget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/page/coupon/home/MainHomeCateFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
             <element signature="e#4492#4493#0" expanded="true" />
             <element signature="e#4520#4521#0" expanded="true" />
           </folding>
