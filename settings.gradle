@@ -1,1 +1,0 @@
-include ':app', ':FrescoLibModule', ':BaseLibModule', ':CommonLibModule', ':WGPlayerArmv7a', ':WGPlayerCore', ':WGPlayerUi'
