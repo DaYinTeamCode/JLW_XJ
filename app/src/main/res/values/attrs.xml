@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingView">
+        <!--进度条初始颜色-->
+        <attr name="progressColor" format="string"></attr>
+        <!--进度条最小宽度即初始宽度-->
+        <attr name="minProgressWidth" format="dimension"></attr>
+        <!--view最小宽度-->
+        <attr name="minWidth" format="dimension"></attr>
+        <!--view最小高度-->
+        <attr name="minHeight" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="NavigateTabBar">
+        <attr name="navigateTabTextColor" format="color|reference"/>
+        <attr name="navigateTabSelectedTextColor" format="color|reference"/>
+        <attr name="containerId" format="integer|reference"/>
+        <attr name="navigateTabTextSize" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingLayout">
+        <attr name="background_view" format="reference" />
+        <attr name="sliding_mode" format="enum">
+            <enum name="both" value="0" />
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+        <attr name="sliding_pointer_mode" format="enum">
+            <enum name="one" value="0" />
+            <enum name="more" value="1" />
+        </attr>
+        <attr name="top_max" format="dimension" />
+    </declare-styleable>
+</resources>

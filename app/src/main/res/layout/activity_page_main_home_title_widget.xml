@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cp_title_bar_height"
+    android:background="@drawable/shape_bg_colorful_no_corner"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.androidex.imageloader.fresco.FrescoImageView
+        android:id="@+id/fivLeftOper"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_weight="0"
+        fresco:actualImageScaleType="centerCrop" />
+
+    <FrameLayout
+        android:id="@+id/flTitleDiv"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:paddingLeft="11dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:paddingRight="5dp"
+                android:src="@mipmap/ic_title_bar_edit_colorful" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="粘贴商品标题或输入商品名"
+                android:textColor="#444444"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.androidex.imageloader.fresco.FrescoImageView
+        android:id="@+id/fivRightOper"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_weight="0"
+        fresco:actualImageScaleType="centerCrop" />
+</LinearLayout>
