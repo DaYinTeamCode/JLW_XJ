@@ -74,9 +74,9 @@ public class XJApp extends ExApplication {
         /*** 初始化网络请求 */
         initHttpTask();
         /*** 初始化更新Apk配置*/
-        initUpdateApkConfig();
+//        initUpdateApkConfig();
         /*** 初始化Bugly */
-        initBugly();
+//        initBugly();
         /*** 初始化Umeng */
         initUmengSdk();
         /*** 初始化存储数据 */

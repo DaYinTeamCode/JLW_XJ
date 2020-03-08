@@ -13,5 +13,5 @@ public class AppConfig {
     public static final String wxKey = "wx15a16ece07261b18";
 
     //Umeng Key
-    public static String umengKey = "5d10736f570df36a160011c4";
+    public static String umengKey = "5e64a604167edd8a8100019a";
 }

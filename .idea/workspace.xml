@@ -6,8 +6,8 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c984434-0366-44b1-a1f5-c86caf187cc5" name="Default Changelist" comment="">
@@ -22,31 +22,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_gaoyin_work_GitHub_JLW_XJ_BaseLibModule_libs_libammsdk_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_gaoyin_work_GitHub_JLW_XJ_BaseLibModule_libs_mta_sdk_1_6_2_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_gaoyin_work_GitHub_JLW_XJ_BaseLibModule_libs_open_sdk_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_gaoyin_work_GitHub_JLW_XJ_app_libs_AMap_Location_V4_7_0_20190708_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaseLibModule/BaseLibModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseLibModule/BaseLibModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseLibModule/src/main/java/com/androidex/activity/ExFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseLibModule/src/main/java/com/androidex/activity/ExFragmentActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommonLibModule/CommonLibModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonLibModule/CommonLibModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrescoLibModule/FrescoLibModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FrescoLibModule/FrescoLibModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JLW_XJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JLW_XJ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WGPlayerArmv7a/WGPlayerArmv7a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WGPlayerArmv7a/WGPlayerArmv7a.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WGPlayerCore/WGPlayerCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WGPlayerCore/WGPlayerCore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WGPlayerUi/WGPlayerUi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WGPlayerUi/WGPlayerUi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shape_bg_colorful_no_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_bg_colorful_no_corner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splash_logo_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_logo_welcome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/page_launcher_splash_fra.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/page_launcher_splash_fra.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/app/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/app/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/app/XJApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jlwteam/rebate/app/XJApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
