@@ -104,7 +104,7 @@ public abstract class ExFragmentActivity extends FragmentActivity implements Htt
     @Override
     protected void onSaveInstanceState(Bundle outState) {
 
-        //super.onSaveInstanceState(outState);
+        super.onSaveInstanceState(outState);
         //fragmentActivity 靠该方法保存状态:fragment的复用等，取消状态的保存
     }
 

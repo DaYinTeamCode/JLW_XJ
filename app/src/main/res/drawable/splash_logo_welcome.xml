@@ -5,7 +5,7 @@
         <color android:color="@android:color/white" />
     </item>
 
-    <item android:bottom="58dp">
+    <item android:bottom="63dp">
         <bitmap
             android:gravity="center_horizontal|bottom"
             android:src="@mipmap/ic_launcher" />

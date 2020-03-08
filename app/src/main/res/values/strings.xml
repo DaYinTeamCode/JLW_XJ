@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">淘集集</string>
+    <string name="app_name">今日精选</string>
     <string name="page_tip_network_none">当前无网络，请检查网络设置</string>
     <string name="page_tip_data_error">数据获取失败，点击重试</string>
     <string name="toast_network_none">当前无网络连接</string>
