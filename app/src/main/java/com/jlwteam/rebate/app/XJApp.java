@@ -10,6 +10,7 @@ import com.androidex.util.StorageUtil;
 import com.ex.android.http.task.HttpTask;
 import com.ex.android.http.task.HttpTaskClient;
 import com.ex.umeng.UmengAgent;
+import com.jlwteam.rebate.common.account.AliAuthPrefs;
 import com.jzyd.lib.httptask.JzydJsonListener;
 import com.meituan.android.walle.WalleChannelReader;
 import com.sjteam.weiguan.BuildConfig;
@@ -106,7 +107,7 @@ public class XJApp extends ExApplication {
             CpHttpTaskExeListener exeLisn = new CpHttpTaskExeListener();
             HttpTask.addHttpTaskExeListener(exeLisn);
             JzydJsonListener.addRespHandler(exeLisn);
-        }catch (Exception ex){
+        } catch (Exception ex) {
 
 
         }
@@ -192,6 +193,11 @@ public class XJApp extends ExApplication {
     private void initStorage() {
 
         StorageUtil.initAppHomeDir(this);
+    }
+
+    public static AliAuthPrefs getAliAuthPrefs() {
+
+        return AliAuthPrefs.getInstance(XJApp.getContext());
     }
 
     /**

@@ -149,5 +149,31 @@ dependencies {
     implementation 'com.tencent.bugly:crashreport_upgrade:1.4.1'
     implementation 'com.tencent.bugly:nativecrashreport:latest.release'
     implementation files('libs/AMap_Location_V4.7.0_20190708.jar')
+
+    /*百川组件 start*/
+    //登录组件
+    //implementation deps.alibaba.alipay_single//支付（以支付宝官网公布的百川版本为准）
+    implementation deps.alibaba.auth_core//登录核心包
+    implementation deps.alibaba.auth_ui//登录ui包
+    implementation deps.alibaba.auth_ext//登录扩展包
+    implementation deps.alibaba.auth_accountlink//【可选】仅供特殊合作伙伴使用
+    //电商SDK
+    implementation deps.alibaba.bc_trade_common
+    implementation deps.alibaba.bc_trade_biz
+    implementation deps.alibaba.bc_trade_sdk
+    implementation deps.alibaba.bc_link_partner
+    //安全组件
+    implementation deps.alibaba.security_guard_aar3//安全基础
+    implementation deps.alibaba.security_body_aar3//【可选】安全高级，如使用了发放红包、优惠券高级功能，则必须引入
+    implementation deps.alibaba.security_avmp_aar3
+    implementation deps.alibaba.security_sgmiddletier_aar3
+    //联盟SDK
+    implementation deps.alibaba.tunion_trade
+    //UT分佣打点追踪
+    implementation deps.alibaba.utdid4all
+    implementation deps.alibaba.app_monitor
+    //Mtop网关
+    implementation deps.alibaba.mtopsdk_allinone_open
+    /*百川组件 end*/
 }
 

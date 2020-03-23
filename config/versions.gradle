@@ -114,6 +114,26 @@ versions.slideback = "1.0.3"
 
 versions.okhttp = "3.11.0"
 
+/* alibaba library version start */
+versions.alibaba_auth_core = "2.0.0.6@aar"
+versions.alibaba_auth_ui = "2.0.0.6@aar"
+versions.alibaba_auth_ext = "2.0.0.6@aar"
+versions.alibaba_auth_accountlink = "1.1.4@jar"
+versions.alibaba_bc_trade_common = "4.0.0.8@aar"
+versions.alibaba_bc_trade_biz = "4.0.0.8@aar"
+versions.alibaba_bc_trade_sdk = "4.0.0.8@aar"
+versions.alibaba_bc_link_partner = "4.1.15@aar"
+versions.alibaba_security_guard_aar3 = "5.4.171@aar"
+versions.alibaba_security_body_aar3 = "5.4.99@aar"
+versions.alibaba_security_avmp_aar3 = "5.4.36@aar"
+versions.alibaba_security_sgmiddletier_aar3 = "5.4.9@aar"
+versions.alibaba_mtopsdk_allinone_open = "3.1.2.5@jar"
+versions.alibaba_utdid4all = "1.1.5.3_proguard"
+versions.alibaba_app_monitor = "2.6.4.5_for_bc"
+versions.alibaba_tunion_trade = "0.3.2@aar"
+versions.alibaba_fastjson = "1.2.41"//1.2.9
+versions.alibaba_alipay_single = "20160825@jar"
+
 def deps = [:]
 
 def support = [:]
@@ -173,23 +193,28 @@ butterknife.butterknife = "com.jakewharton:butterknife:$versions.butter_knife"
 butterknife.butterknife_compiler = "com.jakewharton:butterknife-compiler:$versions.butter_knife"
 deps.butterknife = butterknife
 
+/* alibaba library start */
 def alibaba = [:]
-alibaba.alipay_alipaySingle = "com.alibaba.alipay:alipaySingle:$versions.alibaba_alipaySingle"
-alibaba.alibabauth_core = "com.ali.auth.sdk:alibabauth_core:$versions.alibabauth_core"
-alibaba.alibaba_alibabauth_ui = "com.ali.auth.sdk:alibabauth_ui:$versions.alibaba_alibabauth_ui"
-alibaba.alibabauth_ext = "com.ali.auth.sdk:alibabauth_ext:$versions.alibabauth_ext"
-alibaba.alibabauth_accountlink = "com.ali.auth.sdk:alibabauth_accountlink:$versions.alibabauth_accountlink"
-alibaba.securityguardaar3 = "com.taobao.android:securityguardaar3:$versions.securityguardaar3"
-alibaba.securitybodyaar3 = "com.taobao.android:securitybodyaar3:$versions.securitybodyaar3"
-alibaba.mtopsdk_allinone_open = "com.taobao.android:mtopsdk_allinone_open:$versions.mtopsdk_allinone_open"
-alibaba.alibc_link_partner = "com.alibaba.sdk.android:alibc_link_partner:$versions.alibc_link_partner"
-alibaba.taobao_utdid4all = "com.taobao.android:utdid4all:$versions.taobao_utdid4all"
-alibaba.alibaba_app_monitor_sdk = "com.alibaba.mtl:app-monitor-sdk:$versions.alibaba_app_monitor_sdk"
-alibaba.tuniontradesdk = "com.alimama.tunion.sdk:tuniontradesdk:$versions.tuniontradesdk"
-alibaba.alibc_trade_common = "com.alibaba.sdk.android:alibc_trade_common:$versions.alibc_trade_common"
-alibaba.alibc_trade_biz = "com.alibaba.sdk.android:alibc_trade_biz:$versions.alibc_trade_biz"
-alibaba.alibc_trade_sdk = "com.alibaba.sdk.android:alibc_trade_sdk:$versions.alibc_trade_sdk"
+alibaba.auth_core = "com.ali.auth.sdk:alibabauth_core:$versions.alibaba_auth_core"
+alibaba.auth_ui = "com.ali.auth.sdk:alibabauth_ui:$versions.alibaba_auth_ui"
+alibaba.auth_ext = "com.ali.auth.sdk:alibabauth_ext:$versions.alibaba_auth_ext"
+alibaba.auth_accountlink = "com.ali.auth.sdk:alibabauth_accountlink:$versions.alibaba_auth_accountlink"
+alibaba.bc_trade_common = "com.alibaba.sdk.android:AlibcTradeCommon:$versions.alibaba_bc_trade_common"
+alibaba.bc_trade_biz = "com.alibaba.sdk.android:AlibcTradeBiz:$versions.alibaba_bc_trade_biz"
+alibaba.bc_trade_sdk = "com.alibaba.sdk.android:nb_trade:$versions.alibaba_bc_trade_sdk"
+alibaba.bc_link_partner = "com.alibaba.sdk.android:alibc_link_partner:$versions.alibaba_bc_link_partner"
+alibaba.security_guard_aar3 = "com.taobao.android:securityguardaar3:$versions.alibaba_security_guard_aar3"
+alibaba.security_body_aar3 = "com.taobao.android:securitybodyaar3:$versions.alibaba_security_body_aar3"
+alibaba.security_avmp_aar3 = "com.taobao.android:avmpaar3:$versions.alibaba_security_avmp_aar3"
+alibaba.security_sgmiddletier_aar3 = "com.taobao.android:sgmiddletieraar3:$versions.alibaba_security_sgmiddletier_aar3"
+alibaba.mtopsdk_allinone_open = "com.taobao.android:mtopsdk_allinone_open:$versions.alibaba_mtopsdk_allinone_open"
+alibaba.utdid4all = "com.taobao.android:utdid4all:$versions.alibaba_utdid4all"
+alibaba.app_monitor = "com.alibaba.mtl:app-monitor-sdk:$versions.alibaba_app_monitor"
+alibaba.tunion_trade = "com.alimama.tunion.sdk:tuniontradesdk:$versions.alibaba_tunion_trade"
+alibaba.fastjson = "com.alibaba:fastjson:$versions.alibaba_fastjson"
+alibaba.alipay_single = "com.alibaba.alipay:alipaySingle:$versions.alibaba_alipay_single"
 deps.alibaba = alibaba
+/* alibaba library end */
 
 def push = [:]
 push.umeng = "com.umeng.sdk:push:$versions.umeng_push"
