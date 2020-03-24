@@ -5,7 +5,7 @@ import android.view.View;
 import com.androidex.util.CollectionUtil;
 import com.androidex.widget.rv.adapter.ExRvAdapterBase;
 import com.androidex.widget.rv.view.ExRecyclerView;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import java.util.List;
 

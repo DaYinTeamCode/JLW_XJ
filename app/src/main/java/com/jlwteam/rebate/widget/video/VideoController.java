@@ -10,7 +10,7 @@ import com.androidex.imageloader.fresco.FrescoImageView;
 import com.dueeeke.videoplayer.controller.BaseVideoController;
 import com.dueeeke.videoplayer.player.IjkVideoView;
 import com.dueeeke.videoplayer.util.L;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 
 /**

@@ -18,7 +18,7 @@ import com.androidex.view.pager.indicator.TabStripIndicator;
 import com.jlwteam.rebate.page.coupon.home.adapter.HomeFragmentPagerAdapter;
 import com.jlwteam.rebate.page.coupon.home.category.bean.CateCollection;
 import com.jlwteam.rebate.page.coupon.home.listener.IHomePager;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import java.util.ArrayList;
 import java.util.List;

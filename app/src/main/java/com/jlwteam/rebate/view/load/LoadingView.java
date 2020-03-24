@@ -10,7 +10,7 @@ import android.os.Message;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

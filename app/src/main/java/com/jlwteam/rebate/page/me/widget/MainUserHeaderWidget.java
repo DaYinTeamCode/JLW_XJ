@@ -15,7 +15,7 @@ import com.androidex.util.DensityUtil;
 import com.facebook.drawee.controller.BaseControllerListener;
 import com.facebook.drawee.generic.RoundingParams;
 import com.facebook.imagepipeline.image.ImageInfo;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.constants.DimenConstant;
 import com.jlwteam.rebate.page.login.bean.WxBind;
 import com.jlwteam.rebate.page.login.prefs.AccountPrefs;

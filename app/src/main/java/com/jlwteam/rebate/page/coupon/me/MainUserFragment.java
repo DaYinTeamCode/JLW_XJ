@@ -42,7 +42,7 @@ import com.jlwteam.rebate.syncer.EventBusUtils;
 import com.jlwteam.rebate.utils.CpFontUtil;
 import com.jlwteam.rebate.widget.TitleTransWidget;
 import com.jzyd.lib.httptask.HttpFrameParams;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.tencent.bugly.beta.Beta;
 
 import org.greenrobot.eventbus.Subscribe;

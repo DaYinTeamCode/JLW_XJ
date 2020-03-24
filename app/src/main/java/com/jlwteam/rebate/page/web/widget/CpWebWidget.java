@@ -41,7 +41,7 @@ import com.androidex.util.WebViewUtil;
 import com.androidex.view.ExWebView;
 import com.jlwteam.rebate.page.web.activity.BrowserActivity;
 import com.jzyd.lib.loading.PageLoadingView;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.dialog.ActionListDialog;
 import com.jlwteam.rebate.dialog.CpBaseDialog;
 import com.jlwteam.rebate.utils.GetPathFromUrikitkatUtil;

@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import com.androidex.util.TextUtil;
 import com.androidex.util.ViewUtil;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 /**
  * 确认对话框

@@ -5,7 +5,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.androidex.widget.rv.vh.ExRvItemViewHolderBase;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.page.me.bean.UserItemSet;
 
 /**

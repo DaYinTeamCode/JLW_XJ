@@ -16,7 +16,7 @@ import com.jlwteam.rebate.page.coupon.me.MainUserFragment;
 import com.jlwteam.rebate.page.feeds.follow.FollowVideoFragment;
 import com.jlwteam.rebate.view.tab.NavigateTabBar;
 import com.jlwteam.rebate.view.toast.ExToast;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

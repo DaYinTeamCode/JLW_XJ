@@ -12,7 +12,7 @@ import com.androidex.plugin.ExLayoutWidget;
 import com.androidex.util.DensityUtil;
 import com.androidex.util.ViewUtil;
 import com.jlwteam.rebate.utils.CpDrawableUtil;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 /**
  * 首页标题栏布局

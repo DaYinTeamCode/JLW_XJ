@@ -17,7 +17,7 @@ import com.jzyd.lib.httptask.JzydJsonListener;
 import com.jzyd.lib.httptask.ExResponse;
 import com.jzyd.lib.refresh.sqkbswipe.SqkbSwipeRecyclerViewScrollUpCallback;
 import com.jzyd.lib.refresh.sqkbswipe.SqkbSwipeRefreshLayout;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.constants.ColorConstants;
 import com.jlwteam.rebate.utils.CpFontUtil;
 

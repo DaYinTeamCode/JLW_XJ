@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.androidex.util.DensityUtil;
 import com.jlwteam.rebate.view.toast.ExToast;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 
 /**

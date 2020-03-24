@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentActivity;
 
 import com.androidex.util.TextUtil;
 import com.ex.sdk.android.expermissions.ExEasyPermissions;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import java.util.List;
 

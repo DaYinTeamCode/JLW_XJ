@@ -10,7 +10,7 @@ import com.androidex.statusbar.StatusBarManager;
 import com.androidex.util.AppInfoUtil;
 import com.jlwteam.rebate.base.aframe.CpActivity;
 import com.jlwteam.rebate.view.CpTextView;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.utils.CpFontUtil;
 
 import butterknife.BindView;

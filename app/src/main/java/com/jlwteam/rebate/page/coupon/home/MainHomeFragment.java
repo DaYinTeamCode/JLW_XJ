@@ -11,7 +11,7 @@ import com.androidex.util.VglpUtil;
 import com.jlwteam.rebate.base.aframe.viewer.CpHttpFrameVFragmentViewer;
 import com.jlwteam.rebate.page.coupon.home.widget.MainHomeHeaderTitleWidget;
 import com.jzyd.lib.httptask.HttpFrameParams;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 /**
  * 首页主框架

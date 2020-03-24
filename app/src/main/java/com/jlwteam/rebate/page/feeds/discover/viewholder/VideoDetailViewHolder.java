@@ -8,7 +8,7 @@ import com.androidex.imageloader.fresco.FrescoImageView;
 import com.androidex.util.TextUtil;
 import com.androidex.widget.rv.vh.ExRvItemViewHolderBase;
 import com.jlwteam.rebate.page.feeds.discover.bean.FeedsVideoResult;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import java.text.DecimalFormat;
 

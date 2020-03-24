@@ -9,7 +9,7 @@ import android.support.v4.app.Fragment;
 import com.androidex.util.TextUtil;
 import com.jlwteam.rebate.page.splash.ISplashPage;
 import com.jzyd.lib.activity.JzydFragment;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 /**
  * Create By DaYin(gaoyin_vip@126.com) on 2019/5/30 7:03 PM

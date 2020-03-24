@@ -12,7 +12,7 @@ import android.view.ViewConfiguration;
 import android.widget.AbsListView;
 import android.widget.FrameLayout;
 
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 
 public class SlidingLayout extends FrameLayout{

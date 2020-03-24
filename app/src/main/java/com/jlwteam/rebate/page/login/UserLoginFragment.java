@@ -12,7 +12,7 @@ import com.jlwteam.rebate.app.AppConfig;
 import com.jzyd.lib.httptask.ExResponse;
 import com.jzyd.lib.httptask.HttpFrameParams;
 import com.jzyd.lib.httptask.JzydJsonListener;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.base.aframe.HttpFrameFragment;
 import com.jlwteam.rebate.page.login.bean.WxBind;
 import com.jlwteam.rebate.page.login.prefs.AccountPrefs;

@@ -20,7 +20,7 @@ import com.androidex.util.TextUtil;
 import com.androidex.util.UrlUtil;
 import com.androidex.util.VglpUtil;
 import com.androidex.view.ExWebView;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.constants.DimenConstant;
 import com.jlwteam.rebate.page.web.widget.WebTitleBackWidget;
 import com.jlwteam.rebate.scheme.CpActSchemeLaunchUtil;

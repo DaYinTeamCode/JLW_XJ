@@ -19,7 +19,7 @@ import com.jlwteam.rebate.page.main.event.VideoCateChangedEvent;
 import com.jlwteam.rebate.page.me.MainUserFragment;
 import com.jlwteam.rebate.page.news.MainMessageFragment;
 import com.jzyd.lib.util.MD5Util;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.dialog.PusblishDialog;
 import com.jlwteam.rebate.base.aframe.ExFragmentActivity;
 import com.jlwteam.rebate.page.video.MainVideoFragment;

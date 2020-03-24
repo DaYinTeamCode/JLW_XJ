@@ -7,7 +7,7 @@ import android.widget.ListView;
 import com.androidex.adapter.list.ExListAdapterBase;
 import com.androidex.util.CollectionUtil;
 import com.androidex.util.ViewUtil;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import java.util.List;
 

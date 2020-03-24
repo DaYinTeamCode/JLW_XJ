@@ -20,7 +20,7 @@ import com.androidex.util.ViewUtil;
 import com.ex.android.http.task.HttpTaskStatus;
 import com.jzyd.lib.activity.JzydHttpFrameFragment;
 import com.jzyd.lib.loading.PageLoadingView;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.view.CpTextView;
 
 /**

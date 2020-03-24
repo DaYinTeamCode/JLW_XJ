@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 import com.androidex.util.DensityUtil;
 import com.jlwteam.rebate.view.CpTextView;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import java.util.List;
 

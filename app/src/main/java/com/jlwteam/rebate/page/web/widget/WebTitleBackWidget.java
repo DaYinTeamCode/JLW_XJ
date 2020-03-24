@@ -10,7 +10,7 @@ import com.androidex.plugin.ExLayoutWidget;
 import com.androidex.util.DensityUtil;
 import com.androidex.util.VglpUtil;
 import com.androidex.util.ViewUtil;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 /**
  * 浏览器标题栏组件

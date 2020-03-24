@@ -3,7 +3,7 @@ package com.jlwteam.rebate.base.aframe.viewer;
 import com.androidex.util.DeviceUtil;
 import com.jlwteam.rebate.base.aframe.CpHttpFrameXrvFragment;
 import com.jzyd.lib.httptask.HttpFrameParams;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.base.aframe.presenter.CpHttpFrameXrvPresenter;
 
 public abstract class CpHttpFrameXrvFragmentViewer<T, PRESENTER extends CpHttpFrameXrvPresenter> extends CpHttpFrameXrvFragment<T> {

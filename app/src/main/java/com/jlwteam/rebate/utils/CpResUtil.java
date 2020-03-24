@@ -2,7 +2,7 @@ package com.jlwteam.rebate.utils;
 
 
 import com.jlwteam.rebate.app.XJApp;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 public class CpResUtil {
 

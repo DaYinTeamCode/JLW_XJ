@@ -13,7 +13,7 @@ import com.androidex.view.ExDecorView;
 import com.androidex.widget.rv.adapter.ExRvAdapterBase;
 import com.androidex.widget.rv.view.ExRecyclerView;
 import com.jzyd.lib.httptask.HttpFrameParams;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 import java.util.List;
 

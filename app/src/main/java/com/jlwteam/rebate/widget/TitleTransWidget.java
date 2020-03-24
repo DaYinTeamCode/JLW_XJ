@@ -12,7 +12,7 @@ import android.view.View;
 import com.androidex.plugin.ExViewWidget;
 import com.androidex.util.ViewUtil;
 import com.androidex.view.ExDecorView;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 /**
  * 透明标题组件

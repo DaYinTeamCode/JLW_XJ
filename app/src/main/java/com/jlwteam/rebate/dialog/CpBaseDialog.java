@@ -8,7 +8,7 @@ import android.util.Log;
 
 import com.androidex.util.LogMgr;
 import com.androidex.util.TextUtil;
-import com.sjteam.weiguan.R;
+import com.jlwteam.rebate.R;
 
 public class CpBaseDialog extends Dialog {
     private static final String TAG = "CpBaseDialog";

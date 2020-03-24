@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.jlwteam.rebate.R;
 import com.jlwteam.rebate.page.feeds.discover.bean.FeedsVideoResult;
-import com.sjteam.weiguan.R;
 import com.jlwteam.rebate.base.aframe.ExFragmentActivity;
 
 import java.io.Serializable;
