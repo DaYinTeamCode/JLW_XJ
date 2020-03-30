@@ -8,7 +8,7 @@ package com.jlwteam.rebate.app;
 public class AppConfig {
 
     /*** bugly key */
-    public static final String buglyKey = "1d30dc80ba";
+    public static final String buglyKey = "5a0c15d87d";
 
     public static final String wxKey = "wx15a16ece07261b18";
 
