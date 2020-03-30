@@ -1,9 +1,14 @@
 package com.jlwteam.rebate.app;
 
+import android.app.Application;
 import android.content.Context;
 import android.os.Environment;
 import android.support.multidex.MultiDex;
+import android.util.Log;
 
+import com.alibaba.baichuan.android.trade.AlibcTradeSDK;
+import com.alibaba.baichuan.android.trade.callback.AlibcTradeInitCallback;
+import com.alibaba.baichuan.trade.common.AlibcMiniTradeCommon;
 import com.androidex.context.ExApplication;
 import com.androidex.imageloader.fresco.FrescoHelper;
 import com.androidex.util.StorageUtil;
@@ -12,6 +17,7 @@ import com.ex.android.http.task.HttpTaskClient;
 import com.ex.umeng.UmengAgent;
 import com.jlwteam.rebate.BuildConfig;
 import com.jlwteam.rebate.common.account.AliAuthPrefs;
+import com.jlwteam.rebate.utils.ProcessUtil;
 import com.jzyd.lib.httptask.JzydJsonListener;
 import com.meituan.android.walle.WalleChannelReader;
 import com.jlwteam.rebate.R;
@@ -22,12 +28,16 @@ import com.tencent.bugly.Bugly;
 import com.tencent.bugly.beta.Beta;
 import com.tencent.bugly.crashreport.CrashReport;
 
+import mtopsdk.mtop.global.init.IMtopInitTask;
+
 /**
  * 应用程序入口
  * <p>
  * Create By DaYin(gaoyin_vip@126.com) on 2019/5/31 3:48 PM
  */
 public class XJApp extends ExApplication {
+
+    private final String TAG = getClass().getSimpleName();
 
     @Override
     protected void attachBaseContext(Context base) {
@@ -58,7 +68,10 @@ public class XJApp extends ExApplication {
 
         super.onTrimMemory(level);
         if (level == TRIM_MEMORY_RUNNING_LOW
-                || level == TRIM_MEMORY_UI_HIDDEN) {
+                || level == TRIM_MEMORY_BACKGROUND
+                || level == TRIM_MEMORY_MODERATE
+                || level == TRIM_MEMORY_COMPLETE
+                || (level == TRIM_MEMORY_UI_HIDDEN)) {
 
             FrescoHelper.clearMemoryCache();
         }
@@ -82,6 +95,12 @@ public class XJApp extends ExApplication {
         initUmengSdk();
         /*** 初始化存储数据 */
         initStorage();
+        boolean isMainProcess = ProcessUtil.isMainProcess(this);
+        if (isMainProcess) {
+
+            /*** 初始化阿里百川 */
+            initAliSdk(this);
+        }
     }
 
     /***
@@ -185,6 +204,35 @@ public class XJApp extends ExApplication {
         Beta.enableHotfix = false;
 
         Bugly.init(this, AppConfig.buglyKey, BuildConfig.DEBUG);
+    }
+
+    /**
+     * 初始化阿里百川sdk
+     */
+    private void initAliSdk(Application application) {
+
+        try {
+
+            AlibcTradeSDK.asyncInit(application, new AlibcTradeInitCallback() {
+
+                @Override
+                public void onSuccess() {
+
+//                    MemberSDK.turnOnDebug();
+//                    AlibcMiniTradeCommon.turnOnDebug();
+                    AlibcMiniTradeCommon.context = application;
+                    Log.e(TAG, "AliTradeSDK init onSuccess");
+                }
+
+                @Override
+                public void onFailure(int code, String msg) {
+
+                    Log.e(TAG, "AliTradeSDK init failure" + "code  : " + code + " msg : " + msg);
+                    AlibcMiniTradeCommon.context = application;
+                }
+            });
+        } catch (Exception e) {
+        }
     }
 
     /**

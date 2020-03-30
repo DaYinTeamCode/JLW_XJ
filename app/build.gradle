@@ -25,11 +25,11 @@ android {
         }
     }
     signingConfigs {
-        wg {
-            storeFile file("../config/weiguan.keystore")
-            storePassword "weiguan"
-            keyAlias "wg"
-            keyPassword "weiguan"
+        rebate {
+            storeFile file("../config/rebatev2.keystore")
+            storePassword "jlwteam"
+            keyAlias "jlwteam"
+            keyPassword "jlwteam"
             v2SigningEnabled false
         }
     }
@@ -39,7 +39,7 @@ android {
             zipAlignEnabled false
             minifyEnabled false
             shrinkResources false
-            signingConfig signingConfigs.wg
+            signingConfig signingConfigs.rebate
             buildConfigField "String", "PKG_TIME", '"debug_${versionReleaseTime()}"'
         }
 
@@ -48,7 +48,7 @@ android {
             minifyEnabled true
             shrinkResources true
             debuggable true
-            signingConfig signingConfigs.wg
+            signingConfig signingConfigs.rebate
             buildConfigField "String", "PKG_TIME", '"debug_${versionReleaseTime()}"'
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -58,7 +58,7 @@ android {
             minifyEnabled true
             shrinkResources true
             debuggable false
-            signingConfig signingConfigs.wg
+            signingConfig signingConfigs.rebate
             buildConfigField "String", "PKG_TIME", '"debug_${versionReleaseTime()}"'
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 

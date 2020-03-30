@@ -265,3 +265,55 @@ public static java.lang.String TABLENAME;
 -keep class com.amap.api.fence.**{*;}
 -keep class com.autonavi.aps.amapapi.model.**{*;}
 
+
+#百川
+-keepattributes Signature
+-keep class sun.misc.Unsafe { *; }
+-keep class com.taobao.** {*;}
+-keep class com.alibaba.** {*;}
+-keep class com.alipay.** {*;}
+-dontwarn com.taobao.**
+-dontwarn com.alibaba.**
+-dontwarn com.alipay.**
+-keep class com.ut.** {*;}
+-dontwarn com.ut.**
+-keep class com.ta.** {*;}
+-dontwarn com.ta.**
+-keep class mtopsdk.** {*;}
+-dontwarn mtopsdk.**
+-keepattributes *Annotation* #作用是保留Java注释符，比如使用 @JavascriptInterface将一个方法声明为JS接口
+-keep class org.json.** {*;}
+-keep class com.ali.auth.** {*;}
+-dontwarn com.alimama.** #百川sdk 202版本新增
+-keep class com.alimama.** {*;}
+-keeppackagenames com.alimama.tunion.sdk.**
+-keeppackagenames com.alimama.tunion.sdk.**
+-keep class com.alimama.tunion.sdk.** {
+     public <fields>;
+     public <methods>;
+}
+
+-keepclasseswithmembernames class * {       # 保持 native 方法不被混淆
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {            # 保持自定义控件类不被混淆
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {            # 保持自定义控件类不被混淆
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity { #保持类成员
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {                  # 保持枚举 enum 类不被混淆
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {*;}    # 保持 Parcelable 不被混淆
+-keep class * implements java.io.Serializable {*;}    # 保持 Serializable 不被混淆
+
