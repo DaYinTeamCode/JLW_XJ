@@ -27,7 +27,7 @@
                 <com.androidex.imageloader.fresco.FrescoImageView
                     android:id="@+id/fivGuideOper"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="wrap_content"
                     app:placeholderImage="@color/cp_cover_placeholder" />
             </LinearLayout>
 

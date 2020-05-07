@@ -4,11 +4,14 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 
+import com.alibaba.baichuan.trade.biz.login.AlibcLoginCallback;
 import com.androidex.util.LogMgr;
 import com.androidex.util.TextUtil;
 import com.ex.android.http.task.HttpTask;
 import com.jlwteam.rebate.app.AppConfig;
+import com.jlwteam.rebate.common.account.AliAccountUtil;
 import com.jzyd.lib.httptask.ExResponse;
 import com.jzyd.lib.httptask.HttpFrameParams;
 import com.jzyd.lib.httptask.JzydJsonListener;
@@ -89,9 +92,35 @@ public class UserLoginFragment extends HttpFrameFragment {
     @OnClick(R.id.tvLogin)
     public void onLogin() {
 
-        startBindWx();
+        startAliLogin();
     }
 
+    /***
+     *   阿里百川登录
+     *
+     */
+    private void startAliLogin() {
+
+        AliAccountUtil.loginByBaichuan(new AlibcLoginCallback() {
+            @Override
+            public void onSuccess(int result, String userId, String nick) {
+
+                Log.i("UserLogin",
+                        String.format("登录成功 登录结果：%s 用户ID：%s 用户昵称：%s", result, userId, nick));
+            }
+
+            @Override
+            public void onFailure(int code, String message) {
+
+                Log.i("UserLogin",
+                        String.format("登录失败 错误吗%s  错误信息：%s", code, message));
+            }
+        });
+    }
+
+    /**
+     * 开始绑定微信
+     */
     private void startBindWx() {
 
         // 微信回调
